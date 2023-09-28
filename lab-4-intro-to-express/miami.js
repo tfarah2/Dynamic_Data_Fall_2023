@@ -22,7 +22,7 @@ app.get('/', (req,res) => {
     res.render('home')
 })
 app.get('/about', (req,res) => {
-    res.render(about)
+    res.render('about')
 })
 // This generates an erro rbecause the parameters dont match
 //response is supposed to be res
