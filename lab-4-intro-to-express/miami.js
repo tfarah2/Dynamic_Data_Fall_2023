@@ -26,7 +26,7 @@ app.get('/about', (req,res) => {
 })
 // This generates an erro rbecause the parameters dont match
 //response is supposed to be res
-app.get('/nightlife', (request, response) => {
+app.get('/nightlife', (req, res) => {
     res.type('test/plain')
     res.send('Miami at Night')
 })
