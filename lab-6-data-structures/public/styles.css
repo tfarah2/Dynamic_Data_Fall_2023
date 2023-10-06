@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@400;700&display=swap');
+
+.croissant{font-family: 'Croissant One', cursive;}
+
+.poppins{font-family: 'Poppins', sans-serif; font-weight: 400;}
+.poppins-bold{font-family: 'Poppins', sans-serif; font-weight: 700;}
+
+body{
+    background-color: #cccccc;
+}
+
+.white-bg{
+    background-color: #ffffff;
+}
