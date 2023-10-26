@@ -1,5 +1,6 @@
-<div class="section-divider"></div>
+<div class="section-divider" id="about"></div>
 <h1 class="primary-color-light poppins-bold">{{data.title}}</h1>
+<p>{{data.description}}</p>
 
 {{#if data.services}}
 <div class="section-divider" id="services"></div>
@@ -11,7 +12,7 @@
         {{this.title}}
       </button>
     </h2>
-    <div id="collapse_{{@index}}" class="accordion-collapse collapse" data-bs-parent="#servicesAccordion">
+    <div id="collapse_{{@index}}" class="accordion-collapse collapse {{this.show}}" data-bs-parent="#servicesAccordion">
       <div class="accordion-body">
         <div class="row">
           <div class="col">
@@ -34,6 +35,7 @@
 
 {{#if data.packages}}
 <div class="section-divider" id="packages"></div>
+<h2>Tour Packages</h2>
 <div class="owl-carousel owl-theme owl-packages">
 {{#each data.packages}}
 <div class="card">
@@ -52,3 +54,39 @@
 {{/each}}
 </div>
 {{/if}}
+
+
+{{#if gallery.images}}
+<div class="section-divider" id="gallery"></div> 
+<h2>Image Gallery</h2>
+<div class="row">
+  {{#each gallery.images}}
+  <div class="col-3">
+ 
+  <!-- Button trigger modal-->
+<a href="#" class="gallery-img" data-bs-toggle="modal" data-bs-target="#gallery{{@index}}">
+  <img src="{{this.url}}" alt="{{this.title}}" class="img-thumbnail">
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery{{@index}}" tabindex="-1" aria-labelledby="gallery{{@index}}Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="gallery{{@index}}Label">{{this.title}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="{{this.url}}" alt="{{this.title}}" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  {{/each}}
+</div>
+{{/if}}
+
+<footer class="primary-color-bg secondary-color-light">
+  Copyright 2023 - Thailla Farah
+</footer>

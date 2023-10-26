@@ -20,19 +20,35 @@ app.use(express.static(__dirname + "/public"))
 
 const port = process.env.port || 3000
 
+//require gallery outside the view because we will use the same in all get requests
+const gallery = require('./data/gallery.json')
+
 //Routes go before 404 and 500
 app.get('/', (req,res) => {
     var data = require('./data/home-data.json')
-    res.render('page',{data})
+    res.render('page',{data, gallery})
 })
-app.get('/about', (req,res) => {
-    res.render('about', {
-        title: "About Miami", 
-        pageTitle: "About Miami Travel",
-        image: "miami-3.jpg",
-        description:"Miami is a beautiful city"
-    })
+
+app.get('/zoo', (req,res) => {
+    var data = require('./data/zoo-data.json')
+    res.render('page',{data, gallery})
 })
+
+app.get('/beach', (req,res) => {
+    var data = require('./data/beach-data.json')
+    res.render('page',{data, gallery})
+})
+
+app.get('/casion', (req,res) => {
+    var data = require('./data/casion-data.json')
+    res.render('page',{data, gallery})
+})
+
+app.get('/southpoint', (req,res) => {
+    var data = require('./data/southpoint-data.json')
+    res.render('page',{data, gallery})
+})
+
 // This generates an erro rbecause the parameters dont match
 //response is supposed to be res
 app.get('/nightlife', (req, res) => {

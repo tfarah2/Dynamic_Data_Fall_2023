@@ -15,24 +15,24 @@
 }
 
 .primary-color{
-    color:#550000;
+    color:#45787e;
 }
 
 .primary-color-light, nav .secondary-color-light:hover{
-    color: #FFAAAA
+    color: #000000
 }
 
 .accordion-button:not(.collapsed){
-    color:#440026;
-    background-color: #FFAAAA;
+    color:#9ac5ca;
+    background-color: #0c5460;
 }
 
 .primary-color-bg{
-    background-color:#550000;
+    background-color:#17292c;
 }
 
 .primary-color-light-bg{
-    background-color: #FFAAAA;
+    background-color: #494643;
 }
 
 .secondary-color{
@@ -40,11 +40,11 @@
 }
 
 .secondary-color-light{
-    color: #CD88AF;
+    color: #9ac5ca;
 }
 
 .secondary-color-bg{
-    background-color: #440026;
+    background-color: #45787e;
 }
 
 .secondary-color-light-bg{
@@ -59,4 +59,14 @@
 
 .section-divider{
     padding: 1rem;
+}
+
+.gallery-img img{
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio:1 / 1;
+}
+
+footer{
+    padding: 3rem;
 }
