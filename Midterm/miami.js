@@ -29,23 +29,23 @@ app.get('/', (req,res) => {
     res.render('page',{data, gallery})
 })
 
-app.get('/zoo', (req,res) => {
-    var data = require('./data/zoo-data.json')
+app.get('/milan', (req,res) => {
+    var data = require('./data/milan-data.json')
     res.render('page',{data, gallery})
 })
 
-app.get('/beach', (req,res) => {
-    var data = require('./data/beach-data.json')
+app.get('/rome', (req,res) => {
+    var data = require('./data/rome-data.json')
     res.render('page',{data, gallery})
 })
 
-app.get('/casion', (req,res) => {
-    var data = require('./data/casion-data.json')
+app.get('/food', (req,res) => {
+    var data = require('./data/food-data.json')
     res.render('page',{data, gallery})
 })
 
-app.get('/southpoint', (req,res) => {
-    var data = require('./data/southpoint-data.json')
+app.get('/museums', (req,res) => {
+    var data = require('./data/museums-data.json')
     res.render('page',{data, gallery})
 })
 

@@ -1,0 +1,68 @@
+{
+    "title":"Milan",
+    "description":"Step into the stylish streets of Milan, where fashion-forward trends merge with centuries of captivating history. Explore this cosmopolitan metropolis and uncover its vibrant arts scene, architectural marvels, and culinary delights. Discover Milan in all its elegance and charm.",
+    "slideshow": [
+        "/img/slides/italycoast.jpg",
+        "/img/slides/italycoloseum.jpg",
+        "/img/slides/italyvinyard.jpg"
+    ],
+    "services": [
+        {
+            "title":"Transportation",
+            "intro": "In the stylish and cosmopolitan city of Milan, the tram takes the spotlight as the ideal mode of transportation. Milan's well-connected tram network offers a convenient and picturesque way to traverse the city's bustling streets.",
+           
+            "image": "/img/milan/tram.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Fashion Houses",
+            "intro": "In the fashion-forward city of Milan, fashion house tours are a must-do for style enthusiasts. These tours offer an exclusive behind-the-scenes look at the inner workings of the world's most iconic fashion brands. From witnessing the design process to exploring the ateliers where haute couture comes to life, these tours provide a glimpse into the heart of Milan's fashion industry. You'll walk in the footsteps of legendary designers and learn about the history, craftsmanship, and innovation that have made Milan a global fashion capital. ",
+           
+            "image": "/img/milan/fashion2.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Historic Milan Tour",
+            "image": "/img/milan/historic.jpg",
+            "text": "See Milan's highlights in just a single day on this guided tour",
+            "price": "$85",
+            "duration": "3 hours"
+        },
+        {
+            "title":"Lake Como, Bellagio",
+            "image": "/img/milan/lakecomo.jpg",
+            "text": "A luxurious day trip to Lake Como, Bellagio",
+            "price": "$106",
+            "duration": "11 hours"
+        },
+        {
+            "title":"Milan Duomo & The Last Supper",
+            "image": "/img/milan/supper.jpg",
+            "text": "Leonardo da Vinci's The Last Supper and the Duomo and Sforza Castle",
+            "price": "$106",
+            "duration": "3 hours"
+        },
+        {
+            "title":"Milan Fashion Tour",
+            "image": "/img/milan/fashion.jpg",
+            "text": "Catch a glimpse into the world of high fashion in Milan",
+            "price": "$113",
+            "duration": "1 hour 30 minutes"
+        },
+        {
+            "title":"La Scala Theatre and Museum",
+            "image": "/img/milan/scala.jpg",
+            "text": "One of the world's most famous opera houses, inaugurated in 1778",
+            "price": "$50",
+            "duration": "1 hour 30 minutes"
+        },
+        {
+            "title":"Best Street Food Walking Tour",
+            "image": "/img/milan/streetfood.jpg",
+            "text": "This cosmopolitan city also has a vibrant food scene",
+            "price": "$101",
+            "duration": "3 hours"
+        }
+    ]
+}

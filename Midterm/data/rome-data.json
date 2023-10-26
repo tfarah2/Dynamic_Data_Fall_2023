@@ -1,0 +1,73 @@
+{
+    "title":"Rome",
+    "description":"Explore the Eternal City: Rome! Welcome to the heart of history, art, and culture. Discover the magic of Rome as we journey through its iconic landmarks, ancient treasures, and culinary delights.",
+    "slideshow": [
+        "/img/slides/italycoast.jpg",
+        "/img/slides/italycoloseum.jpg",
+        "/img/slides/italyvinyard.jpg"
+    ],
+    "services": [
+        {
+            "title":"Transportation",
+            "intro": "In the bustling streets of Rome, where history meets modernity, walking reigns as the best mode of transportation. Strolling through this ancient city allows you to uncover hidden gems tucked away in narrow alleys, witness the grandeur of historic landmarks at your own pace, and savor the scents and sounds of local life. Altough if you aren't big on walking, taxis are very easy to find.",
+           
+            "image": "/img/rome/walking.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Vatican City",
+            "intro": "The Vatican, also known as Vatican City, is the world's smallest independent state and the spiritual center of the Roman Catholic Church. Enclaved within Rome, Italy, it is home to St. Peter's Basilica, the Vatican Museums, and the residence of the Pope. The Vatican is a place of immense religious and historical significance, attracting millions of visitors each year.",
+            "list": [
+                "Saint Peter's Basilica",
+                "Seistine Chapel",
+                "Raphael's Room",
+                "Private Tours"
+            ],
+            "image": "/img/rome/vatican3.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Colosseum",
+            "image": "/img/rome/colosseum.jpg",
+            "text": "Experience this historic landmark from a unique perspective on the arena floor",
+            "price": "$64",
+            "duration": "2 hours 30 minutes"
+        },
+        {
+            "title":"3 in 1 Cooking Class Piazza Navona",
+            "image": "/img/rome/cooking.jpg",
+            "text": "Delve into Italy's beloved cuisine with this pasta and tiramisù cooking class",
+            "price": "$75",
+            "duration": "3 hours"
+        },
+        {
+            "title":"Rome Twilight Trastevere Food Tour",
+            "image": "/img/rome/foodtour.jpg",
+            "text": "The pioneering Food Tour of Trastevere!",
+            "price": "$139",
+            "duration": "4 hours"
+        },
+        {
+            "title":"Pantheon Elite Tour",
+            "image": "/img/rome/pantheon.jpg",
+            "text": "In-depth introduction to one of Rome's most iconic ancient buildings",
+            "price": "$40",
+            "duration": "45 minutes"
+        },
+        {
+            "title":"Trevi Fountain",
+            "image": "/img/rome/trevi.jpg",
+            "text": "Designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini in 1762",
+            "price": "Free",
+            "duration": ""
+        },
+        {
+            "title":"Gallery Borghese Tour",
+            "image": "/img/rome/gallery.jpg",
+            "text": "Home to paintings and sculptures by Raphael, Bernini, and Caravaggio",
+            "price": "$87",
+            "duration": "2 hours 30 minutes"
+        }
+    ]
+}

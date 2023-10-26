@@ -1,0 +1,68 @@
+{
+    "title":"Wineries",
+    "description":"Embark on a vinicultural voyage through Italy's picturesque wineries. Explore the lush vineyards, indulge in world-class wines, and uncover the secrets of winemaking traditions that have thrived for generations. Discover the essence of Italy in every exquisite glass.",
+    "slideshow": [
+        "/img/slides/italycoast.jpg",
+        "/img/slides/italycoloseum.jpg",
+        "/img/slides/italyvinyard.jpg"
+    ],
+    "services": [
+        {
+            "title":"Wine",
+            "intro": "Italy, known as the heart of wine culture, boasts an unrivaled viticultural legacy. From the terraced vineyards of Piedmont to the sun-drenched fields of Sicily, Italy's wine regions offer an exquisite tapestry of flavors and history. Each bottle encapsulates the essence of its terroir, where ancient traditions merge with modern innovation.",
+
+            "image": "/img/food/vineyard1.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Vineyard Tours",
+            "intro": "Italy's vineyards offer a tantalizing journey for wine enthusiasts and wanderers alike. With a rich winemaking history dating back millennia, Italy's vineyards are a testament to the art of crafting exceptional wines. Guided by the hands of passionate vintners, you can stroll through sun-kissed vineyards in regions like Tuscany, Piedmont, or Sicily, and savor the fruits of their labor during wine tastings.",
+           
+            "image": "/img/food/vineyard2.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Tenute Fasoli Lorena",
+            "image": "/img/food/tenuteFasoliLorena.jpg",
+            "text": "Italian family wine making at its very best in Valpolicella, Veneto",
+            "price": "$30",
+            "duration": "2 hours"
+        },
+        {
+            "title":"Tiberini",
+            "image": "/img/food/tiberini.jpg",
+            "text": "Artisan Winemakers from Montepulciano in Tuscany. Discover one of the best wineries in Tuscany.",
+            "price": "$150",
+            "duration": "5 hours"
+        },
+        {
+            "title":"Madonna dell'Uva",
+            "image": "/img/food/madonnadell.jpg",
+            "text": "Producing rare and well-balanced red wines in Piedmont - Madonna dell'Ulva",
+            "price": "$40",
+            "duration": "3 hours"
+        },
+        {
+            "title":"Podere Della Bruciata",
+            "image": "/img/food/podere.jpg",
+            "text": "Explore the array of wonderful natural wines of Tuscany at Podere Della Bruciata",
+            "price": "$40",
+            "duration": "2 hours"
+        },
+        {
+            "title":"Podere La Pace",
+            "image": "/img/food/lapace.jpg",
+            "text": "Creativity, Quality and Transparency From the Roots",
+            "price": "$45",
+            "duration": "1 hour 30 minutes"
+        },
+        {
+            "title":"Sanlorenzo",
+            "image": "/img/food/sanlorenzo.jpg",
+            "text": "Sanlorenzo - The best winery in Tuscany with pure tradition, authenticity, and an open outlook toward the future",
+            "price": "$10",
+            "duration": "1 hour 30 minutes"
+        }
+    ]
+}
