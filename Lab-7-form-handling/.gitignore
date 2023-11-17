@@ -2,4 +2,4 @@
 node_modules
 
 #ignore system files
-.DS_Store, *.bak
+.DS_STORE, *.bak

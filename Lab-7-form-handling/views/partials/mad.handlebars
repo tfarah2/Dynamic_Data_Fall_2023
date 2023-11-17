@@ -3,23 +3,23 @@
 {{#each data.fields}}
 
 <div class="mb-3">
-        <label class"form-label" for="field{{this.name}}">{{this.desc}} </label>
+        <label class="form-label" for="field{{this.name}}">{{this.desc}} </label>
         <input class="form-control" type="{{this.type}}" id="field{{this.name}}" name="{{this.name}}">
-</div>
+    </div>
 
 {{/each}}
 
-<div class="mb-3">
-            <button class="btn btn-primary" type="submit">Submit</button>
-</div>
-
+ <div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </div>
 </form>
-
 
 {{#each data.fields}}
 
 << req.query.{{this.name}} >> <br>
 
 {{/each}}
+
+
 
 {{/if}}
