@@ -1,0 +1,25 @@
+
+{{#each products}}
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+    <br> {{#each images}} {{#if @first}} 
+      <img src="{{this.src}}" class="img-fluid rounded-start" alt="...">
+      {{/if}} {{/each}}
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{this.name}}</h5> <br>
+        <p class="card-text">{{this.description}}</p>  <br>
+        <p class="card-text"><small class="text-body-secondary">$ {{this.price}}</small></p> <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<form action="/cart" method="post">
+<input name="product" type="text" value="{{this.id}}" >
+<button type="submit">Add to Cart</button>
+</form>
+
+{{/each}}

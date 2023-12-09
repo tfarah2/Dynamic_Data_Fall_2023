@@ -1,0 +1,439 @@
+{
+    "items":[
+        {
+            "id":1,
+            "category":"dress",
+            "name":"Bianca Dress",
+            "price":358.00,
+            "images":[
+                {"src":"/dress/final_dress_1.1.jpeg"},
+                {"src":"/dress/final_dress_1.2.jpeg"},
+                {"src":"/dress/final_dress_1.3.jpeg"}
+            ],
+            "description":"Short Pink Long Sleeve Dress"
+        },
+        {
+            "id":2,
+            "category":"dress",
+            "name":"Nadene Dress",
+            "price":248.00,
+            "images":[
+                {"src":"/dress/final_dress_2.1.jpeg"},
+                {"src":"/dress/final_dress_2.2.jpeg"},
+                {"src":"/dress/final_dress_2.3.jpeg"}
+            ],
+            "description":"Short Blue Sequin Short Sleeve Dress"
+        },
+        {
+            "id":3,
+            "category":"dress",
+            "name":"Katie Dress",
+            "price":225.00,
+            "images":[
+                {"src":"/dress/final_dress_3.1.jpeg"},
+                {"src":"/dress/final_dress_3.2.jpeg"},
+                {"src":"/dress/final_dress_3.3.jpeg"}
+            ],
+            "description":"Long Brown Stripped Short Sleeve Dress"
+        },
+        {
+            "id":4,
+            "category":"dress",
+            "name":"Karissa Silk Dress",
+            "price":278.00,
+            "images":[
+                {"src":"/dress/final_dress_4.1.jpeg"},
+                {"src":"/dress/final_dress_4.2.jpeg"},
+                {"src":"/dress/final_dress_4.3.jpeg"}
+            ],
+            "description":"Long Olive Silk Short Sleeve Dress"
+        },
+        {
+            "id":5,
+            "category":"dress",
+            "name":"Printed Double Neckline Slip",
+            "price":1390.00,
+            "images":[
+                {"src":"/dress/final_dress_5.1.jpeg"},
+                {"src":"/dress/final_dress_5.2.jpeg"},
+                {"src":"/dress/final_dress_5.3.jpeg"}
+            ],
+            "description":"Long Blue Multicolor Short Sleeve Dress"
+        },
+        {
+            "id":6,
+            "category":"dress",
+            "name":"Elsa Dress",
+            "price":595.00,
+            "images":[
+                {"src":"/dress/final_dress_6.1.jpeg"},
+                {"src":"/dress/final_dress_6.2.jpeg"},
+                {"src":"/dress/final_dress_6.3.jpeg"}
+            ],
+            "description":"Short Black Puffy Sleeve Dress"
+        },
+        {
+            "id":7,
+            "category":"dress",
+            "name":"Sequin Violet Embroidery Slip",
+            "price":395.00,
+            "images":[
+                {"src":"/dress/final_dress_7.1.jpeg"},
+                {"src":"/dress/final_dress_7.2.jpeg"},
+                {"src":"/dress/final_dress_7.3.jpeg"}
+            ],
+            "description":"Long Pink Satin Short Sleeve Dress"
+        },
+        {
+            "id":8,
+            "category":"dress",
+            "name":"Azzura Cami Dress",
+            "price":495.00,
+            "images":[
+                {"src":"/dress/final_dress_8.1.jpeg"},
+                {"src":"/dress/final_dress_8.2.jpeg"},
+                {"src":"/dress/final_dress_8.3.jpeg"}
+            ],
+            "description":"Short Black Short Sleeve Dress"
+        },
+        {
+            "id":9,
+            "category":"dress",
+            "name":"Sana Dress",
+            "price":195.00,
+            "images":[
+                {"src":"/dress/final_dress_9.1.jpeg"},
+                {"src":"/dress/final_dress_9.2.jpeg"},
+                {"src":"/dress/final_dress_9.3.jpeg"}
+            ],
+            "description":"Short Black and White Puffy Sleev Dress"
+        },
+        {
+            "id":10,
+            "category":"dress",
+            "name":"Venus Mini Dress",
+            "price":595.00,
+            "images":[
+                {"src":"/dress/final_dress_10.1.jpeg"},
+                {"src":"/dress/final_dress_10.2.jpeg"},
+                {"src":"/dress/final_dress_10.3.jpeg"}
+            ],
+            "description":"Short Black and White Checkered Long Sleeve DRess"
+        },
+        {
+            "id":11,
+            "category":"dress",
+            "name":"Lui Mini Dress",
+            "price":209.00,
+            "images":[
+                {"src":"/dress/final_dress_11.1.jpeg"},
+                {"src":"/dress/final_dress_11.2.jpeg"},
+                {"src":"/dress/final_dress_11.3.jpeg"}
+            ],
+            "description":"Short Beige Short Sleeve Dress"
+        },
+        {
+            "id":12,
+            "category":"dress",
+            "name":"Domino Mini Dress",
+            "price":425.00,
+            "images":[
+                {"src":"/dress/final_dress_12.1.jpeg"},
+                {"src":"/dress/final_dress_12.2.jpeg"},
+                {"src":"/dress/final_dress_12.3.jpeg"}
+            ],
+            "description":"Short Black Short Sleeve Dress"
+        },
+        {
+            "id":13,
+            "category":"jeans",
+            "name":"Featherweight Logan Jeans",
+            "price":285.00,
+            "images":[
+                {"src":"/jeans/jeans_1.1.jpeg"},
+                {"src":"/jeans/jeans_1.2.jpeg"},
+                {"src":"/jeans/jeans_1.3.jpeg"}
+            ],
+            "description":"Wide-leg cut with raw cuffs"
+        },
+        {
+            "id":14,
+            "category":"jeans",
+            "name":"Damon Pleated Wide Leg",
+            "price":595.00,
+            "images":[
+                {"src":"/jeans/jeans_2.1.jpeg"},
+                {"src":"/jeans/jeans_2.2.jpeg"},
+                {"src":"/jeans/jeans_2.3.jpeg"}
+            ],
+            "description":"Faded wash and worn edge"
+        },
+        {
+            "id":15,
+            "category":"jeans",
+            "name":"The Mischa Super High Rises",
+            "price":198.00,
+            "images":[
+                {"src":"/jeans/jeans_3.1.jpeg"},
+                {"src":"/jeans/jeans_3.2.jpeg"},
+                {"src":"/jeans/jeans_3.3.jpeg"}
+            ],
+            "description":"Raw hem Slant hip pockets, patch back pockets"
+        },
+        {
+            "id":16,
+            "category":"jeans",
+            "name":"Mica Jeans",
+            "price":349.00,
+            "images":[
+                {"src":"/jeans/jeans_4.1.jpeg"},
+                {"src":"/jeans/jeans_4.2.jpeg"},
+                {"src":"/jeans/jeans_4.3.jpeg"}
+            ],
+            "description":"Paint splatter print throughout"
+        },
+        {
+            "id":17,
+            "category":"jeans",
+            "name":"Remy Jeans",
+            "price":299.00,
+            "images":[
+                {"src":"/jeans/jeans_5.1.jpeg"},
+                {"src":"/jeans/jeans_5.2.jpeg"},
+                {"src":"/jeans/jeans_5.3.jpeg"}
+            ],
+            "description":"Button at waist and zip fly"
+        },
+        {
+            "id":18,
+            "category":"jeans",
+            "name":"Peyton Ankle Bootcut Jeans",
+            "price":235.00,
+            "images":[
+                {"src":"/jeans/jeans_6.1.jpeg"},
+                {"src":"/jeans/jeans_6.2.jpeg"},
+                {"src":"/jeans/jeans_6.3.jpeg"}
+            ],
+            "description":"Metallic leather patch at back"
+        },
+        {
+            "id":19,
+            "category":"jeans",
+            "name":"Cargo Logan Jeans",
+            "price":218.00,
+            "images":[
+                {"src":"/jeans/jeans_7.1.jpeg"},
+                {"src":"/jeans/jeans_7.2.jpeg"},
+                {"src":"/jeans/jeans_7.3.jpeg"}
+            ],
+            "description":"Flap cargo hip pockets"
+        },
+        {
+            "id":20,
+            "category":"jeans",
+            "name":"Charlotte High Rise Straight Jeans",
+            "price":198.00,
+            "images":[
+                {"src":"/jeans/jeans_8.1.jpeg"},
+                {"src":"/jeans/jeans_8.2.jpeg"},
+                {"src":"/jeans/jeans_8.3.jpeg"}
+            ],
+            "description":"Ankle length 5-pocket styling"
+        },
+        {
+            "id":21,
+            "category":"jeans",
+            "name":"Cooper Cargo Pants",
+            "price":228.00,
+            "images":[
+                {"src":"/jeans/jeans_9.1.jpeg"},
+                {"src":"/jeans/jeans_9.2.jpeg"},
+                {"src":"/jeans/jeans_9.3.jpeg"}
+            ],
+            "description":"Patch front, back, and cargo pockets"
+        },
+        {
+            "id":22,
+            "category":"jeans",
+            "name":"501 Jeans for Women",
+            "price":98.00,
+            "images":[
+                {"src":"/jeans/jeans_10.1.jpeg"},
+                {"src":"/jeans/jeans_10.2.jpeg"},
+                {"src":"/jeans/jeans_10.3.jpeg"}
+            ],
+            "description":"Fading and whiskering"
+        },
+        {
+            "id":23,
+            "category":"jeans",
+            "name":"Colleen Jeans",
+            "price":168.00,
+            "images":[
+                {"src":"/jeans/jeans_11.1.jpeg"},
+                {"src":"/jeans/jeans_11.2.jpeg"},
+                {"src":"/jeans/jeans_11.3.jpeg"}
+            ],
+            "description":"Flare silhouette with slit cuffs and distressed edges"
+        },
+        {
+            "id":24,
+            "category":"jeans",
+            "name":"Valentina Super High Rise",
+            "price":198.00,
+            "images":[
+                {"src":"/jeans/jeans_12.1.jpeg"},
+                {"src":"/jeans/jeans_12.2.jpeg"},
+                {"src":"/jeans/jeans_12.3.jpeg"}
+            ],
+            "description":"Fading and whiskering"
+        },
+        {
+            "id":25,
+            "category":"tops",
+            "name":"Printed Mesh Top",
+            "price":590.00,
+            "images":[
+                {"src":"/tops/tops_1.1.jpeg"},
+                {"src":"/tops/tops_1.2.jpeg"},
+                {"src":"/tops/tops_1.3.jpeg"}
+            ],
+            "description":"Round neckline and long sleeves"
+        },
+        {
+            "id":26,
+            "category":"tops",
+            "name":"Jace Top",
+            "price":458.00,
+            "images":[
+                {"src":"/tops/tops_2.1.jpeg"},
+                {"src":"/tops/tops_2.2.jpeg"},
+                {"src":"/tops/tops_2.3.jpeg"}
+            ],
+            "description":"Strapless sweetheart neckline"
+        },
+        {
+            "id":27,
+            "category":"tops",
+            "name":"Della Top",
+            "price":270.00,
+            "images":[
+                {"src":"/tops/tops_3.1.jpeg"},
+                {"src":"/tops/tops_3.2.jpeg"},
+                {"src":"/tops/tops_3.3.jpeg"}
+            ],
+            "description":"Smocked elastic back panel"
+        },
+        {
+            "id":28,
+            "category":"tops",
+            "name":"Sloan Linen Vest",
+            "price":245.00,
+            "images":[
+                {"src":"/tops/tops_4.1.jpeg"},
+                {"src":"/tops/tops_4.2.jpeg"},
+                {"src":"/tops/tops_4.3.jpeg"}
+            ],
+            "description":"Hidden button placket and self-tie closure at front"
+        },
+        {
+            "id":29,
+            "category":"tops",
+            "name":"Mini Tee",
+            "price":165.00,
+            "images":[
+                {"src":"/tops/tops_5.1.jpeg"},
+                {"src":"/tops/tops_5.2.jpeg"},
+                {"src":"/tops/tops_5.3.jpeg"}
+            ],
+            "description":"Logo graphic at front"
+        },
+        {
+            "id":30,
+            "category":"tops",
+            "name":"Umi Top",
+            "price":450.00,
+            "images":[
+                {"src":"/tops/tops_6.1.jpeg"},
+                {"src":"/tops/tops_6.2.jpeg"},
+                {"src":"/tops/tops_6.3.jpeg"}
+            ],
+            "description":"Flap collar with rosette"
+        },
+        {
+            "id":31,
+            "category":"tops",
+            "name":"Elody Cami",
+            "price":255.00,
+            "images":[
+                {"src":"/tops/tops_7.1.jpeg"},
+                {"src":"/tops/tops_7.2.jpeg"},
+                {"src":"/tops/tops_7.3.jpeg"}
+            ],
+            "description":"Halter neckline composed of imitation pearl beads"
+        },
+        {
+            "id":32,
+            "category":"tops",
+            "name":"Ruched Off Shoulder",
+            "price":625.00,
+            "images":[
+                {"src":"/tops/tops_8.1.jpeg"},
+                {"src":"/tops/tops_8.2.jpeg"},
+                {"src":"/tops/tops_8.3.jpeg"}
+            ],
+            "description":"Ruched off-the shoulder design"
+        },
+        {
+            "id":33,
+            "category":"tops",
+            "name":"The Sleeveless Date",
+            "price":188.00,
+            "images":[
+                {"src":"/tops/tops_9.1.jpeg"},
+                {"src":"/tops/tops_9.2.jpeg"},
+                {"src":"/tops/tops_9.3.jpeg"}
+            ],
+            "description":"Surplice neckline with snap closure"
+        },
+        {
+            "id":34,
+            "category":"tops",
+            "name":"Tisha Bodysuits",
+            "price":258.00,
+            "images":[
+                {"src":"/tops/tops_10.1.jpeg"},
+                {"src":"/tops/tops_10.2.jpeg"},
+                {"src":"/tops/tops_10.3.jpeg"}
+            ],
+            "description":"Long sleeves with pleating at shoulder"
+        },
+        {
+            "id":35,
+            "category":"tops",
+            "name":"Camille Cami",
+            "price":148.00,
+            "images":[
+                {"src":"/tops/tops_11.1.jpeg"},
+                {"src":"/tops/tops_11.2.jpeg"},
+                {"src":"/tops/tops_11.3.jpeg"}
+            ],
+            "description":"Bias cut for slight stretch and an elegant drape"
+        },
+        {
+            "id":36,
+            "category":"tops",
+            "name":"Deveraux Top",
+            "price":248.00,
+            "images":[
+                {"src":"/tops/tops_12.1.jpeg"},
+                {"src":"/tops/tops_12.2.jpeg"},
+                {"src":"/tops/tops_12.3.jpeg"}
+            ],
+            "description":"Puffed shoulders and pleating details"
+        }
+
+    
+        
+    ]
+}

@@ -34,15 +34,17 @@ app.get('/madprocess',(req,res)=>{
 })
 
 //newsletter section
-app.get('/newsletter-signup', handler.newsletterSignup)
+app.get('/newsletter-signup' , handler.newsletterSignup)
 
-app.get('/newsletter/list', handler.newsletterSignupList)
+app.get('/newsletter/list' , handler.newsletterSignupList)
 
-app.get('/newsletter/details/:email', handler.newsletterUser)
+app.get('/newsletter/details/:email' , handler.newsletterUser)
 
-app.post('/newsletter-signup/process', handler.newsletterSignupProcess)
+app.post('/newsletter/delete' , handler.newsletterUserDelete)
 
-app.get('/newsletter/thankyou' ,(req,res) =>{
+app.post('/newsletter-signup/process' , handler.newsletterSignupProcess)
+
+app.get('/newsletter/thankyou' , (req,res) =>{
     res.render('thankyou')
 })
 

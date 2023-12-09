@@ -11,7 +11,12 @@
     <td>{{this.firstname}}</td>
     <td>{{this.lastname}}</td>
     <td>{{this.email}}</td>
-    <td><a href="/newsletter/details/{{this.email}}">View Details</a></td>
+    <td><a href="/newsletter/details/{{this.email}}">View Details</a>
+    <form action="/newsletter/delete/{{this.email}}" method="delete"> 
+    <input type="hidden" name="email" value="{{this.email}}">
+    <button type="submit" class="btn btn-primary"> Delete </button>
+    </form>
+    </td>
 </tr>
 {{/each}}
 

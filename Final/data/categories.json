@@ -1,0 +1,15 @@
+{"categories":[
+    {
+        "name":"Dresses",
+        "url":"dress",
+        "image":"/dresses.jpg"
+    },    {
+        "name":"Jeans",
+        "url":"jeans",
+        "image":"/jeans.jpg"
+    },  {
+        "name":"Tops",
+        "url":"tops",
+        "image":"/tops.jpg"
+    }
+]}

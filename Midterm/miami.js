@@ -3,9 +3,9 @@ const express = require('express')
 //add the view engine
 const expressHandlebars = require('express-handlebars')
 
-const res = require('express/lib/response')
-
 const app = express()
+
+const res = require('express/lib/response')
 
 //configure our express app to use handlebars
 app.engine('handlebars', expressHandlebars.engine({

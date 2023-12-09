@@ -18,6 +18,20 @@ exports.newsletterUser = (req,res) => {
     res.render('userdetails', {"users": userDetails})
 }
 
+
+exports.newsletterUserDelete = (req,res) => {
+    var users = eList.users.filter((user)=>{
+        return user.email != req.params.email
+    })
+
+    var json = JSON.stringify(users)
+    fs.writeFile('.data/emails.json', json, 'utf8', ()=>{})
+    console.log(userDetails)
+
+    res.redirect(303, '/newsletter/list')
+
+}
+
 exports.newsletterSignupProcess = (req,res) => {
 
     //Then we do something here
